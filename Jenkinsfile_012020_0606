@@ -1,0 +1,12 @@
+pipeline {
+   agent any
+
+   stages {
+      stage('Build') {
+         steps {
+            javac MyClass_012020_06.java
+            java MyClass_012020_06
+         }
+      }
+   }
+}

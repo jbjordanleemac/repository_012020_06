@@ -1,0 +1,11 @@
+pipeline {
+   agent any
+
+   stages {
+      stage('Build') {
+         steps {
+            echo 'Build World 012020_06'
+         }
+      }
+   }
+}
